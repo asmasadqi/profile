@@ -1,0 +1,105 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+*, html{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rbg(239, 230, 221);
+  color: rgb(41, 41, 41);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;  
+}
+
+h1 {
+  color: #12355B;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #4B5842;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif; 
+  color: #7EBDC2;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.card-white {
+  background: white;
+  margin: 20px 0;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.intro-text {
+  margin-bottom: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.profile_btn {
+  background-color: #7EBDC2;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+}
+
+.img_circle {
+  border-radius: 50%;
+  height: 100px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .list-inline > li {
+    display: block;
+  }
+}
